@@ -1,3 +1,9 @@
-# UUID                                  	Group Name
-#
+# UUID Group Name
+global:Registered-Users	Registered Users
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Service Users
+b1d42d2f5e413ef59918b9e4dde67f34a43a04b0	openstack/cyborg-core
+global:Anonymous-Users	Anonymous Users
 05a678d3d4a168e149d5e8a0063bbd1b1c5526da	Administrators
+4572c517702492251ad622a289176552a8acbbb2	rdo-superusers
+401cf37bee35d1c809d4d957e55f2a304f8eed69	rdo-provenpackagers
+e0484c857ce228bbf906a2e98a5e0954b4cd4ae8	openstack/cyborg-ptl
