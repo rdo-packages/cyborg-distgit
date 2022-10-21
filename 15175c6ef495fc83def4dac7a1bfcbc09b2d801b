@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "eaaf0ab1_7e34a15f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-10-21T12:23:09Z",
+      "side": 1,
+      "message": "Some general recomendations:\n\nYou can use https://github.com/rdo-packages/octavia-distgit/blob/rpm-master/openstack-octavia.spec as reference. It\u0027s a openstack service spec, so should be closer to what you need.\n\nPlease, add blank lines between sections",
+      "revId": "15175c6ef495fc83def4dac7a1bfcbc09b2d801b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b636bad2_d04dd08f",
