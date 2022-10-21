@@ -51,6 +51,24 @@
       "message": "i have a few more octavia reference to remvoe.",
       "revId": "15175c6ef495fc83def4dac7a1bfcbc09b2d801b",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c346dc7e_e325c4fe",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-10-21T23:01:48Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "b636bad2_d04dd08f",
+      "revId": "15175c6ef495fc83def4dac7a1bfcbc09b2d801b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
