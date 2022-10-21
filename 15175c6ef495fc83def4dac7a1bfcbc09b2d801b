@@ -18,6 +18,24 @@
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b54f0889_c88e27a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-10-21T15:30:15Z",
+      "side": 1,
+      "message": "yep thank you very much i will use that as a base and yes ill add speaces.\n\ni basically pushed what i had late yesterday because i was done with fighting it but ill clean this up.\n\nwas able to get dlrn to build os-vif locally  and when trying to buidl cyborg its failign the the rpmbuild invocation for the final rpm after all the deps\nare installed so im hoping i can debug it locally now.",
+      "parentUuid": "eaaf0ab1_7e34a15f",
+      "revId": "15175c6ef495fc83def4dac7a1bfcbc09b2d801b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b636bad2_d04dd08f",
