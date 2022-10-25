@@ -351,6 +351,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ff7d96da_ba9ac639",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-10-25T14:29:58Z",
+      "side": 1,
+      "message": "WRT the split. I understand that leaving the executable in the common subpackage makes it simpler for you to manage in containers, right?. If there is a reason to leave binaries in the -common, no problem from my side. The main reason to include them in subpackages instead of in common is consistency with most packages, but it\u0027s something we can manage.\n\nAbout drivers, your plan LGTM. As per past experiences, it\u0027d be good to provide a metapackage openstack-cyborg-drivers (or -all or drivers-all, what yor prefer) which depends on all drivers? (also drivers should depend on common).\n\nAbout timelines, there is no pressure at this point from RDO side. Just in case you plan to have CI coverage in tripleo, puppet or some other place, it\u0027ll take some time.",
+      "parentUuid": "72a4d487_a53ab8eb",
+      "range": {
+        "startLine": 187,
+        "startChar": 0,
+        "endLine": 187,
+        "endChar": 1
+      },
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "36355a39_d8574946",
         "filename": "openstack-cyborg.spec",
         "patchSetId": 3
