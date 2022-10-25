@@ -399,6 +399,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8ca3a722_303b24a3",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-10-25T15:03:03Z",
+      "side": 1,
+      "message": "I agree in not splitting out it more that needed.\n\nSo, iiuc:\n\n- One -tests package for all the tests\n- One subpackage for each driver, i.e. -gpu (right?)\n- One metapackage -drivers-all that depends on all driver subpackages.\n- -tests depends on -drivers-all\n\nLGTM.\n\nTBH, we probably don\u0027t have good example of this. In the past tempest plugins and sahara drivers were similar but they were splitted to their own separated repos upstream (and packages in RDO). In the tempest, i.e. we have a -all package which depends on all the plugins:\n\nhttps://github.com/rdo-packages/tempest-distgit/blob/rpm-master/openstack-tempest.spec#L120-L149\n\nWhich is probably the more similar.",
+      "parentUuid": "dc3a7b58_424b3e76",
+      "range": {
+        "startLine": 187,
+        "startChar": 0,
+        "endLine": 187,
+        "endChar": 1
+      },
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "36355a39_d8574946",
         "filename": "openstack-cyborg.spec",
         "patchSetId": 3
