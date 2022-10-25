@@ -18,6 +18,41 @@
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1f18d54_2fd9d18c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-10-25T09:50:20Z",
+      "side": 1,
+      "message": "yep i took that out of the initally version while i was workign on my build env",
+      "parentUuid": "bdbeea21_7898878f",
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d67a46c9_14e33ded",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-10-25T09:50:20Z",
+      "side": 1,
+      "message": "i can certenly adress most of the feedback in the inital version but would prefer to defer\nbreaking it into sub packages to follow up commits.",
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ee2f080d_9201324e",
@@ -37,6 +72,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d8c0bc1d_eae07148",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-10-25T09:50:20Z",
+      "side": 1,
+      "message": "yep also removed that intially but i can defnitly add it back",
+      "parentUuid": "ee2f080d_9201324e",
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "27e23220_ce4bbbe6",
         "filename": "openstack-cyborg.spec",
         "patchSetId": 3
@@ -48,6 +101,24 @@
       "writtenOn": "2022-10-25T09:34:38Z",
       "side": 1,
       "message": "Shouldn\u0027t we build and ship a default config cyborg.conf using oslo-config-generator?\n\nhttps://github.com/rdo-infra/example-distgit/blob/rpm-master/openstack-example.spec#L26-L30",
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "213a9431_9c196b12",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-10-25T09:50:20Z",
+      "side": 1,
+      "message": "we should generate a sample but not provide a cyborg.conf\nwe shoudl provide a cyborg.conf.sample that enduses can mv and uncomment relevent parts.\n\nyou will have to provide db and rabbitmq info in the config to have this work so we cant actully provide a workign config automatically. we currently also dont want ot can any of the upstream defaults via the rpm packaging so all the options in the sample will be commented out.",
+      "parentUuid": "27e23220_ce4bbbe6",
       "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
@@ -77,6 +148,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "aa746c89_632206f2",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-10-25T09:50:20Z",
+      "side": 1,
+      "message": "yes thats on my to do list. im planning on refining this in later commits rather then getting the intial patch perfect.\nthat said im fine with adding the test back",
+      "parentUuid": "b5a9b2e6_6a95db88",
+      "range": {
+        "startLine": 180,
+        "startChar": 0,
+        "endLine": 180,
+        "endChar": 1
+      },
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "31365247_c9dd7e96",
         "filename": "openstack-cyborg.spec",
         "patchSetId": 3
@@ -88,6 +183,30 @@
       "writtenOn": "2022-10-25T09:34:38Z",
       "side": 1,
       "message": "You plan to create systemd unit files for each service and create per-service subpackage?. That\u0027s the current standard for openstack services packages. There is a reason to skip it for cyborg?",
+      "range": {
+        "startLine": 187,
+        "startChar": 0,
+        "endLine": 187,
+        "endChar": 1
+      },
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e688942_2ac13e14",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-10-25T09:50:20Z",
+      "side": 1,
+      "message": "yes os i plan to split this up in two ways\n\none subpackage per binary for cyborg that is api, conductor, compute and a dbsync command addtionally we want to split the comptue drivers each out into there own sub packages so when we contairise this downstream we can inclodue only the plugsins we want to productise.\n\ni had planned to do both in followups.\n\nthe service files will not be used for tripleo ectra but might be useful for anyone using the rpm directly.",
+      "parentUuid": "31365247_c9dd7e96",
       "range": {
         "startLine": 187,
         "startChar": 0,
