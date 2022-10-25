@@ -375,6 +375,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "dc3a7b58_424b3e76",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-10-25T14:48:21Z",
+      "side": 1,
+      "message": "i was orginally going to move the binarys to the sub package by the way but i tough it woudl be less of an issue if i didnt so ill jsut move them like i had planned orginally.\n\nack on the openstack-cyborg-drivers-all metapackage\nyes it should depend on common and i think we want\nthe test pacage to depend on openstack-cyborg-drivers-all \n\ni dont really want to split up the test into multipe sub packages per driver.\n\nthe test and python porject is not really intended to be split up that much so having all tests in one location that depend on everythign i think is the best approch.\n\nill try and keep thsi in line with the other packages if you point me in the right direction.",
+      "parentUuid": "ff7d96da_ba9ac639",
+      "range": {
+        "startLine": 187,
+        "startChar": 0,
+        "endLine": 187,
+        "endChar": 1
+      },
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "36355a39_d8574946",
         "filename": "openstack-cyborg.spec",
         "patchSetId": 3
