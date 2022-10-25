@@ -1,0 +1,124 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bdbeea21_7898878f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-10-25T09:34:38Z",
+      "side": 1,
+      "message": "Most (not all) services build and ship documentation in a -doc subpackage. If you are interested in adding it, you can check with_doc in:\n\nhttps://github.com/rdo-infra/example-distgit/blob/rpm-master/openstack-example.spec#L113-L116",
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee2f080d_9201324e",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-10-25T09:34:38Z",
+      "side": 1,
+      "message": "Please, add the gpg validation for tarballs using opendev gpg. See:\n\nhttps://github.com/rdo-infra/example-distgit/blob/rpm-master/openstack-example.spec#L26-L30\nhttps://github.com/rdo-infra/example-distgit/blob/rpm-master/openstack-example.spec#L26-L30",
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27e23220_ce4bbbe6",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-10-25T09:34:38Z",
+      "side": 1,
+      "message": "Shouldn\u0027t we build and ship a default config cyborg.conf using oslo-config-generator?\n\nhttps://github.com/rdo-infra/example-distgit/blob/rpm-master/openstack-example.spec#L26-L30",
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5a9b2e6_6a95db88",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-10-25T09:34:38Z",
+      "side": 1,
+      "message": "May we run unit tests in %check?",
+      "range": {
+        "startLine": 180,
+        "startChar": 0,
+        "endLine": 180,
+        "endChar": 1
+      },
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "31365247_c9dd7e96",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-10-25T09:34:38Z",
+      "side": 1,
+      "message": "You plan to create systemd unit files for each service and create per-service subpackage?. That\u0027s the current standard for openstack services packages. There is a reason to skip it for cyborg?",
+      "range": {
+        "startLine": 187,
+        "startChar": 0,
+        "endLine": 187,
+        "endChar": 1
+      },
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36355a39_d8574946",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-10-25T09:34:38Z",
+      "side": 1,
+      "message": "See my question about cyborg.conf",
+      "range": {
+        "startLine": 189,
+        "startChar": 0,
+        "endLine": 189,
+        "endChar": 1
+      },
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
