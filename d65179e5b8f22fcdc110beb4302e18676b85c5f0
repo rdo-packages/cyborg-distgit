@@ -88,6 +88,24 @@
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0eb3204c_a8a242e1",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-10-28T01:12:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d8c0bc1d_eae07148",
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "27e23220_ce4bbbe6",
@@ -155,6 +173,24 @@
       "side": 1,
       "message": "sure i can do that. generally from an upstream project perspective we recomend only including the sections you modify but if they are commented its basically the same effect. we move to config in code a long time ago and when we did that we asked packages to not ship non default policy but if tis commented as it will be with oslo config geneartor it acts as good documentation for the operator.",
       "parentUuid": "646297a0_7fd1988a",
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7cb2b8ff_561c1186",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-10-28T01:12:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c0f4a9ae_53370ad8",
       "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
@@ -244,6 +280,30 @@
       "side": 1,
       "message": "im kind of expecting this to more or less just work when i copy the\nnova/octaiva snipit so it would be nice ot includ this in the inital version.",
       "parentUuid": "7439ad86_9974a5a0",
+      "range": {
+        "startLine": 180,
+        "startChar": 0,
+        "endLine": 180,
+        "endChar": 1
+      },
+      "revId": "d65179e5b8f22fcdc110beb4302e18676b85c5f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a75481ca_945628f7",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-10-28T01:12:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0003ff43_893ec82b",
       "range": {
         "startLine": 180,
         "startChar": 0,
