@@ -1,0 +1,159 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27d98b29_81e5dcfc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-11-02T14:49:47Z",
+      "side": 1,
+      "message": "Sorry, i should have noticed some more issues in previous revies.",
+      "revId": "b3d34abf872cc5894af794252a0dfe085db63eb7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "24ace6a3_798e2791",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-11-02T14:49:47Z",
+      "side": 1,
+      "message": "DLRN overwrites Version and Release to the real values but the convention is to set them both to \"XXX\":\n\nVersion:    XXX\nRelease:    XXX",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 21
+      },
+      "revId": "b3d34abf872cc5894af794252a0dfe085db63eb7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f95cc34a_26aa4d26",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 5
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-11-02T14:49:47Z",
+      "side": 1,
+      "message": "Any reason to use this instead of standard macro?\n\n%autosetup -n %{service}-%{upstream_version} -S git",
+      "range": {
+        "startLine": 165,
+        "startChar": 0,
+        "endLine": 171,
+        "endChar": 2
+      },
+      "revId": "b3d34abf872cc5894af794252a0dfe085db63eb7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a306ff57_5aa2df02",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 5
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-11-02T14:49:47Z",
+      "side": 1,
+      "message": "You shouldn\u0027t need to cd ... here. Actually you can simply run the %{py3_build} here.",
+      "range": {
+        "startLine": 179,
+        "startChar": 0,
+        "endLine": 179,
+        "endChar": 1
+      },
+      "revId": "b3d34abf872cc5894af794252a0dfe085db63eb7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "69beed4d_91007acd",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 5
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-11-02T14:49:47Z",
+      "side": 1,
+      "message": "Don\u0027t need this cd command here.",
+      "range": {
+        "startLine": 186,
+        "startChar": 0,
+        "endLine": 186,
+        "endChar": 1
+      },
+      "revId": "b3d34abf872cc5894af794252a0dfe085db63eb7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d1eaa043_7ee18fc2",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 5
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-11-02T14:49:47Z",
+      "side": 1,
+      "message": "I think you don\u0027t need this here.",
+      "range": {
+        "startLine": 205,
+        "startChar": 0,
+        "endLine": 205,
+        "endChar": 1
+      },
+      "revId": "b3d34abf872cc5894af794252a0dfe085db63eb7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "df9ceeb0_1a2221b3",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 5
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-11-02T14:49:47Z",
+      "side": 1,
+      "message": "The python module dirs are shipped in python3-cyborg and common depends on it. You shouldn\u0027t include this in common subpackage.",
+      "range": {
+        "startLine": 212,
+        "startChar": 0,
+        "endLine": 214,
+        "endChar": 44
+      },
+      "revId": "b3d34abf872cc5894af794252a0dfe085db63eb7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
