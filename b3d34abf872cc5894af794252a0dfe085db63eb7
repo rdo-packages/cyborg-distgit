@@ -43,6 +43,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0b540511_897faf34",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-11-03T14:00:08Z",
+      "side": 1,
+      "message": "yes so i am not using XXX here because DLRN populates this properly automatically so there is no need to sett it to XXX.\nby setting this i can also use the same spec with mockbuild and not need to modify it locally to build.",
+      "parentUuid": "24ace6a3_798e2791",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 21
+      },
+      "revId": "b3d34abf872cc5894af794252a0dfe085db63eb7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f95cc34a_26aa4d26",
         "filename": "openstack-cyborg.spec",
         "patchSetId": 5
@@ -54,6 +78,30 @@
       "writtenOn": "2022-11-02T14:49:47Z",
       "side": 1,
       "message": "Any reason to use this instead of standard macro?\n\n%autosetup -n %{service}-%{upstream_version} -S git",
+      "range": {
+        "startLine": 165,
+        "startChar": 0,
+        "endLine": 171,
+        "endChar": 2
+      },
+      "revId": "b3d34abf872cc5894af794252a0dfe085db63eb7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "56d70115_6b7fb880",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 5
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-11-03T14:00:08Z",
+      "side": 1,
+      "message": "yes this allows the same spec file to work with mockbuild or dlrn without changes to the spec file.\n\ni can try this again but i could not get \n%autosetup -n %{service}-%{upstream_version} -S git to work with mock in the past and that was alot simpler to get working then dlrn and faster to iterate with.",
+      "parentUuid": "f95cc34a_26aa4d26",
       "range": {
         "startLine": 165,
         "startChar": 0,
@@ -89,6 +137,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "04a01548_199ba08c",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 5
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-11-03T14:00:08Z",
+      "side": 1,
+      "message": "not with how I have unpacked it. \n\nits unpacked into a subfolder.\nI could unpack it directly into the build directory by removing\n\nmkdir \u0027%{service}-%{upstream_version}\u0027 \u0026\u0026 cd \u0027%{service}-%{upstream_version}\u0027\n\nthen the cd is not required but im not sure i want to do that since i would liek to keep a seperation between files that come from the source repo and files like the systemd service files that come form the dist git repo.",
+      "parentUuid": "a306ff57_5aa2df02",
+      "range": {
+        "startLine": 179,
+        "startChar": 0,
+        "endLine": 179,
+        "endChar": 1
+      },
+      "revId": "b3d34abf872cc5894af794252a0dfe085db63eb7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "69beed4d_91007acd",
         "filename": "openstack-cyborg.spec",
         "patchSetId": 5
@@ -100,6 +172,30 @@
       "writtenOn": "2022-11-02T14:49:47Z",
       "side": 1,
       "message": "Don\u0027t need this cd command here.",
+      "range": {
+        "startLine": 186,
+        "startChar": 0,
+        "endLine": 186,
+        "endChar": 1
+      },
+      "revId": "b3d34abf872cc5894af794252a0dfe085db63eb7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8202fee_1ae35a77",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 5
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-11-03T14:00:08Z",
+      "side": 1,
+      "message": "again same as above its required because of how i decied to unpack",
+      "parentUuid": "69beed4d_91007acd",
       "range": {
         "startLine": 186,
         "startChar": 0,
@@ -146,6 +242,30 @@
       "writtenOn": "2022-11-02T14:49:47Z",
       "side": 1,
       "message": "The python module dirs are shipped in python3-cyborg and common depends on it. You shouldn\u0027t include this in common subpackage.",
+      "range": {
+        "startLine": 212,
+        "startChar": 0,
+        "endLine": 214,
+        "endChar": 44
+      },
+      "revId": "b3d34abf872cc5894af794252a0dfe085db63eb7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8e0f0a1_50e23757",
+        "filename": "openstack-cyborg.spec",
+        "patchSetId": 5
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2022-11-03T14:00:08Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "df9ceeb0_1a2221b3",
       "range": {
         "startLine": 212,
         "startChar": 0,
